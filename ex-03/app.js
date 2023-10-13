@@ -2,6 +2,7 @@ const ul = document.querySelector("ul");
 
 let li = document.createElement("li");
 li.className = "list-items";
+li.classList = "list-items class1 class2";
 li.textContent = "Text Content";
 
 li.innerHTML = "Inner HTML";
@@ -22,3 +23,6 @@ for (i = 0; i < allLi.length; i++) {
         allLi[i].classList.add("li-special");
     }
 }
+
+// Remove elements
+document.querySelector(".class1").remove();

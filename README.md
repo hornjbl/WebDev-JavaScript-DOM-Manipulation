@@ -22,3 +22,7 @@ freeCodeCamp course on Youtube (https://www.youtube.com/watch?v=5fb2aPlgoys)
         -   innerHTML
         -   innerText
     -   innerHTML can have security issues.
+-   Removing Elements (ex-03)
+-   DOM Tree Recap
+    -   The DOM object itself is a property of the `window` object, which is the global top-level object, representing the tab in the browser. This has info like the height & width of the window, etc.
+-   Traversing the DOM (ex-04)
