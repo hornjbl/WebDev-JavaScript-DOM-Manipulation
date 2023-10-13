@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    height: 50%;
+    width: 100%;
+}
+
+.border {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.click {
+    height: 100%;
+}
+
+.click:hover {
+    cursor: pointer;
+    background-color: darkolivegreen;
+    color: white;
+}
+
+.hidden-content {
+    /* display: none; */
+}

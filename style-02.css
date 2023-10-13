@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+}
+
+.ex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: silver;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    height: 10em;
+    padding: 1em;
+}
+
+.click {
+    background-color: none;
+    border: 1.5px solid black;
+    border-radius: 5px;
+}
+
+.click:hover {
+    cursor: pointer;
+    background-color: darkolivegreen;
+    color: white;
+}
